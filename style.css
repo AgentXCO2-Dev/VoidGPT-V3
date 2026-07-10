@@ -1,0 +1,57 @@
+* {
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body {
+margin:0;
+min-height:100vh;
+background:#090014;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.app {
+width:90%;
+max-width:900px;
+background:#120020;
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 40px #6f00ff;
+}
+
+h1 {
+color:#b56cff;
+}
+
+#chat {
+height:400px;
+overflow-y:auto;
+background:#050008;
+padding:20px;
+border-radius:15px;
+margin:20px 0;
+}
+
+.inputBox {
+display:flex;
+gap:10px;
+}
+
+input {
+flex:1;
+padding:15px;
+border-radius:10px;
+border:none;
+}
+
+button {
+padding:15px 25px;
+border:none;
+border-radius:10px;
+background:#8a2be2;
+color:white;
+cursor:pointer;
+}
